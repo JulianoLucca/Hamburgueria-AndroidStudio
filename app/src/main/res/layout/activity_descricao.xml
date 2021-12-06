@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ul.activities.DescricaoActivity"
+    android:background="@color/backgroudn">
+
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/picturehamburguer"
+            android:layout_width="335dp"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/backgroudn">
+
+
+        <TextView
+            android:id="@+id/namehamburguer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="26dp"
+            android:fontFamily="@font/opensans_bold"
+            android:text="Cheese Bacon"
+            android:textColor="@color/button"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/descricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="69dp"
+            android:fontFamily="@font/opensans_bold"
+            android:text="Pão branco macio, hambúrguer artesanal 120 gramas, duplo cheddar derretido, com um toque especial de cebola chapeada, bacon crocante, e o nosso molho exclusivo."
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:id="@+id/valorhamburger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="29dp"
+            android:fontFamily="@font/opensans_bold"
+            android:text="18.00"
+            android:textColor="@color/button"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btncomprar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="157dp"
+            android:background="@color/button"
+            android:text="@string/comprar" />
+
+        <Button
+            android:id="@+id/btvoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="157dp"
+            android:layout_toRightOf="@+id/btncomprar"
+            android:background="@color/button"
+            android:text="@string/voltar" />
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

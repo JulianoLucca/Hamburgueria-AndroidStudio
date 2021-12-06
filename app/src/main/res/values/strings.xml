@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Trabalho</string>
+    <string name="welcome_title">Bem-vindo ao Login</string>
+    <string name="welcome_subtitle">Seja bem-vindo ao app de simulação do login, cadastro e esqueci minha senha</string>
+    <string name="welcome_signup">Cadastre-se</string>
+    <string name="welcome_login">Login</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_password">Senha</string>
+    <string name="login_signin">Entrar</string>
+    <string name="main_welcomemessage">Bem-vindo %s</string>
+    <string name="login_title">Login</string>
+    <string name="register_createaccount">Crie sua conta</string>
+    <string name="register_nome">Nome</string>
+    <string name="register_createaccountbutton">Criar conta</string>
+    <string name="hamburgueria_lj">Hamburgueria LJ</string>
+    <string name="finalizar_pedido">Finalizar Pedido</string>
+    <string name="pedido_finalizado">Pedido Finalizado</string>
+    <string name="voltar">voltar</string>
+    <string name="comprar">comprar</string>
+</resources>
